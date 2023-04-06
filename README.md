@@ -1,7 +1,14 @@
 # Partisol_BAM_T640_Colo
 
 This project includes a set of python scripts and corresponding data that can be used to generate correlation plots.
+
 The python scripts are designed to be run on Linux and would probably have to be modified slightly to work on Windows.
+
+Dependencies:
+matplotlib
+numpy
+scipy
+pandas
 
 Correlogram.py generates a plot like the following:
 
