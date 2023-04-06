@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 from datetime import timedelta
 
 # Set a directory that will be used to find files.
-directory = "/mnt/f/f_documents/data/concord colo/"
+directory = "data//"
 
 # Establish filenames for datafiles.
 read_file_1 = 'T640_PM25_preDMS_DailyAvg.csv'
@@ -153,4 +153,4 @@ ax1.set_xlabel('T640 PM' + r'$\rm _{2.5}$' + units)
 
 # Show and save figure.
 plt.show()
-fig.savefig('/mnt/f/f_documents/data/concord colo/figures/Fire_Correlations.png')
+fig.savefig('Fire_Correlations.png')

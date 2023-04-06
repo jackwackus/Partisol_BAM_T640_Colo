@@ -16,7 +16,7 @@ import df_funs as _
 import matplotlib.pyplot as plt
 
 # Set a directory that will be used to find files.
-directory = "/mnt/f/f_documents/data/concord colo//"
+directory = "data//"
 
 # Establish filenames for datafiles.
 read_file_1 = 'T640_PM25_preDMS_DailyAvg.csv'
@@ -223,4 +223,4 @@ i += 1
 
 # Show and save plot.
 plt.show()
-fig.savefig('/mnt/f/f_documents/data/concord colo/figures/Correlogram.png')
+fig.savefig('Correlogram.png')
